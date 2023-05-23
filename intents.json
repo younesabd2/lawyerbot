@@ -1,0 +1,291 @@
+{"intents": [
+
+  {"tag": "greeting",
+   "patterns": ["Hy","Hello","Hi there", "How are you", "Is anyone there?", "Good day"],
+   "responses": [" thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  {"tag": "noanswer",
+   "patterns": [""],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+   "context": [""]
+  },
+ 
+  {"tag": "help",
+   "patterns": ["q", "what can you do", "can you help me?", "can i tell you something"],
+   "responses": ["I'm here to help you!", "I can help you with whatever you tell me to."],
+  "context_set": [""]
+  },
+   
+ {"tag": "data_protection_and_privacy",
+   "patterns": ["What are the legal requirements for data protection and privacy ?"],
+   "responses": ["Data protection and privacy laws are governed by the Data Protection Act 2018 and the General Data Protection Regulation (GDPR). Organizations must handle personal data lawfully, fairly, and transparently. They must obtain consent for data processing, protect data against loss or unauthorized access, and provide individuals with rights to access and control their personal information. Non-compliance can result in significant penalties, so it's important for businesses to ensure they are in compliance with data protection laws."],
+  "context_set": [""]},
+  
+{"tag": "protect_the_intellectual_property",
+   "patterns": ["What steps can I take to protect my intellectual property ?"],
+   "responses": ["Intellectual property can be protected through various means. Copyright arises automatically upon the creation of original works, but it may be beneficial to register your work to strengthen your legal position. Trademarks can be registered with the Intellectual Property Office to protect brand names, logos, and symbols. Patents can be obtained for inventions, providing exclusive rights for a specified period. Consulting with an IP lawyer can help you understand the best strategies for protecting your intellectual property."], 
+  "context_set": [""]
+ },
+{"tag": "responsibilities_of_landlords_and_tenants",
+   "patterns": ["What are the legal rights and responsibilities of landlords and tenants ?"],
+   "responses": ["andlords and tenants have specific rights and responsibilities outlined in legislation. Landlords must ensure the property is safe and habitable, provide necessary repairs, protect the tenant's deposit in a government-approved scheme, and adhere to proper eviction procedures. Tenants must pay rent on time, maintain the property, and follow the terms of the tenancy agreement. Both parties have rights to privacy, reasonable notice, and protection against unfair practices."],
+  "context_set": [""]
+  },
+    {"tag": "employment_discrimination",
+   "patterns": ["What are the laws regarding employment discrimination ?"],
+   "responses": ["It is illegal to discriminate against employees or job applicants based on protected characteristics, including age, gender, race, disability, religion, and sexual orientation. Employers have a duty to provide equal opportunities, reasonable accommodations, and a harassment-free work environment. Employees who experience discrimination may have legal recourse and can file a claim with an employment tribunal."],
+  "context_set": [""]
+  },
+    {"tag": "valid_contract",
+   "patterns": ["What are the legal requirements for a valid contract ?"],
+   "responses": ["For a contract to be valid, several key elements must be present. These include offer and acceptance, consideration (something of value exchanged between the parties), intention to create legal relations, and the capacity of the parties to enter into a contract. The terms of the contract should be clear, and the agreement should not be illegal or against public policy."],
+  "context_set": [""]
+  },
+    {"tag": "arrested_by_the_police",
+   "patterns": ["What are the rights of individuals when arrested by the police ?"],
+   "responses": ["When arrested by the police, individuals have certain rights. These include the right to remain silent, the right to legal representation, and the right to be informed of the reason for the arrest. You have the right to know that anything you say may be used as evidence against you. If detained at a police station, you have the right to consult with a solicitor in private. It is crucial to exercise these rights and seek legal advice promptly."],
+  "context_set": [""]
+},
+    {"tag": "non_profit_organization",
+   "patterns": ["What are the legal requirements for starting a non-profit organization ?"],
+   "responses": ["Starting a non-profit organization involves several steps. You need to choose a suitable legal structure, such as a charitable incorporated organization (CIO) or a charitable company limited by guarantee. You must define the organization's purpose and ensure it qualifies for charitable status. Registering with the Charity Commission is necessary for most charities, while community interest companies (CICs) register with Companies House. Additionally, you must adhere to governance and reporting requirements specific to the chosen legal structure."],
+  "context_set": [""] },
+
+    {"tag": "change_the_contract",
+   "patterns": ["Can my employer change my contract without my consent"],
+   "responses": ["Generally, an employer cannot unilaterally change the terms of your contract without your agreement. Any changes must be mutually agreed upon, and you should be given reasonable notice. However, there may be specific circumstances where an employer can make changes, such as if the contract includes a flexibility clause or if both parties agree to modify the terms."],
+  "context_set": [""]
+  },
+{"tag": "written_statement",
+   "patterns": ["Am I entitled to receive a written statement of employment particulars?"],
+   "responses": ["Yes, under the Employment Rights Act 1996, your employer is legally obligated to provide you with a written statement of employment particulars within two months of starting your employment. This document should include essential terms and conditions of your employment, such as your job title, pay, working hours, and notice period."],
+  "context_set": [""]
+  },
+{"tag": "employer_dismiss",
+   "patterns": ["Can my employer dismiss me without a valid reason?"],
+   "responses": ["Generally, no. In the UK, employees with more than two years of continuous service have protection against unfair dismissal. Employers must have a valid reason, such as conduct, capability, redundancy, or a legal requirement, to terminate an employee's contract. If you believe you have been unfairly dismissed, you may have grounds to file a claim with an employment tribunal."],
+  "context_set": [""]
+  },
+{"tag": "regarding_annual_leave_and_holidays",
+   "patterns": ["What are my rights regarding annual leave and holidays?"],
+   "responses": ["As an employee, you have the right to a minimum amount of annual leave. Currently, under the Working Time Regulations 1998, most workers are entitled to at least 5.6 weeks of paid leave per year (pro-rated for part-time workers). Employers can include bank holidays as part of this entitlement. It is important to check your employment contract for any additional leave entitlements that may apply."],
+  "context_set": [""]
+  },
+{"tag": "flexible_working_arrangements",
+   "patterns": ["Can I request flexible working arrangements?"],
+   "responses": ["Yes, under the law, eligible employees have the right to request flexible working arrangements, such as changes to their working hours or location. To make a request, you should follow the prescribed procedure set out in the Employment Rights Act 1996. Your employer must consider your request seriously and can only refuse it if there are legitimate business reasons."],
+  "context_set": [""]
+},
+{"tag": "discrimination_or_harassment",
+   "patterns": ["What should I do if I experience workplace discrimination or harassment?"],
+   "responses": [" If you experience discrimination or harassment in the workplace, it is important to report it to your employer or a designated person within your organization, following their established procedures. If the issue is not resolved internally, you may be able to bring a claim to an employment tribunal. Seeking legal advice from an employment lawyer can help you understand your rights and options."],
+  "context_set": [""]
+  },
+{"tag": "sick__leave",
+   "patterns": ["Can my employer terminate my employment while I am on sick leave?"],
+   "responses": ["Generally, your employer cannot terminate your employment simply because you are on sick leave. You are protected from unfair dismissal due to illness or injury. However, if you are unable to return to work within a reasonable timeframe and it poses a significant burden on the business, your employer may consider termination. In such cases, they should follow a fair process and consider reasonable adjustments or alternatives."],
+  "context_set": [""]
+  },
+{"tag": "period_for_termination",
+   "patterns": ["What is the statutory minimum notice period for termination?"],
+   "responses": ["The statutory minimum notice period for termination depends on your length of service. Under the Employment Rights Act 1996, if you have been employed for one month or more but less than two years, the minimum notice period is one week. The notice period increases with each additional year of continuous employment, up to a maximum of 12 weeks' notice for those employed for 12 years or more."],
+  "context_set": [""]
+  },
+{"tag": "redundant",
+   "patterns": ["Can I be made redundant without any consultation or notice?"],
+   "responses": ["No, if your employer is considering making you redundant, they are legally required to consult with you and provide a reasonable notice period. The length of the consultation period and notice period will depend on the number of redundancies proposed and the specific circumstances. Your employer should follow a fair redundancy process, including exploring alternatives and offering suitable alternative employment if available."],
+  "context_set": [""]
+  },
+{"tag": "victim_whistleblowing",
+   "patterns": ["What are my rights if I am a victim of whistleblowing retaliation ?"],
+   "responses": [" If you make a protected disclosure (whistleblowing) and experience retaliation as a result, you have legal protections. The law protects employees who disclose certain types of wrongdoing in the workplace from being treated unfairly or dismissed as a result. If you believe you have been retaliated against, you should seek legal advice promptly to understand your rights and options."],
+  "context_set": [""]
+  },
+
+{"tag": "getting_divorce",
+   "patterns": ["What is the process for getting a divorce ?"],
+   "responses": ["the process for divorce involves filing a divorce petition, reaching a financial settlement, and finalizing the divorce through a court order. It is advisable to consult with a family law solicitor to understand the process and obtain guidance tailored to your circumstances."],
+  "context_set": [""]
+  },
+{"tag": "child_custody_determined",
+   "patterns": ["How is child custody determined ?"],
+   "responses": ["Child custody, referred to as child arrangements in the UK, is determined based on the child's best interests. The court considers factors such as the child's welfare, their relationship with each parent, and their wishes and feelings if they are of an appropriate age. The court may also consider the parents' ability to meet the child's needs."],
+  "context_set": [""]
+  },
+{"tag": "child_custody_or_visitation_order",
+   "patterns": ["Can I modify a child custody or visitation order ?"],
+   "responses": ["Yes, it is possible to modify child custody or visitation arrangements if there has been a significant change in circumstances. However, modifications require court approval. Consulting with a family law solicitor can help you understand the process and the requirements for modifying an existing order."],
+  "context_set": [""]
+  },
+{"tag": "divorce",
+   "patterns": ["How is property and asset division handled in a divorce?"],
+   "responses": [" In divorce proceedings, the court considers various factors to determine a fair division of property and assets, including the length of the marriage, each party's financial contributions, their respective needs, and the welfare of any children. It is advisable to seek legal advice to understand how these factors may apply to your situation."],
+  "context_set": [""]
+  },
+{"tag": "unmarried_parent",
+   "patterns": ["What are my rights and obligations as an unmarried parent ?"],
+   "responses": ["Unmarried parents have parental responsibility if they are named on the child's birth certificate or have a parental responsibility agreement. This grants them rights and obligations regarding the child's upbringing, education, and healthcare. However, it is essential to consult with a family law solicitor to understand your specific rights and obligations."],
+  "context_set": [""]
+  },
+{"tag": "domestic_abuse",
+   "patterns": ["How can I obtain a restraining order or injunction to protect myself from domestic abuse ?"],
+   "responses": ["If you are experiencing domestic abuse, you can seek a non-molestation order or an occupation order. Non-molestation orders prohibit the abuser from harassing or intimidating you, while occupation orders can determine who can live in the family home. It is crucial to contact a family law solicitor or organizations specializing in domestic abuse to guide you through the process."],
+  "context_set": [""]
+  },
+{"tag": "spousal_maintenance",
+   "patterns": ["What factors does the court consider when determining spousal maintenance ?"],
+   "responses": ["When determining spousal maintenance, the court considers factors such as the parties' income, earning capacity, financial needs, standard of living during the marriage, and any contributions made to the marriage or the family. Each case is unique, and it is advisable to consult with a family law solicitor for personalized advice."],
+  "context_set": [""]
+  },
+{"tag": "seek_visitation_rights",
+   "patterns": ["Can grandparents seek visitation rights with their grandchildren ?"],
+   "responses": ["Grandparents can seek visitation rights with their grandchildren if they have a meaningful relationship with them. However, there is no automatic right, and permission must be obtained from the court. The court's primary consideration is the child's welfare. Consulting with a family law solicitor can help you understand the process and your chances of success."],
+  "context_set": [""]
+  },
+{"tag": "resolve_disputes",
+   "patterns": ["What options are available for resolving disputes without going to court?"],
+   "responses": ["Alternative dispute resolution methods, such as mediation or collaborative law, can help parties reach agreements outside of court. These processes aim to facilitate negotiations and find mutually acceptable solutions. It is advisable to discuss these options with a family law solicitor who can assess their suitability for your situation."],
+  "context_set": [""]
+  },
+
+{"tag": "alcohol_limit",
+   "patterns": ["What is the legal blood alcohol limit for driving ?"],
+   "responses": ["The legal blood alcohol limit for driving in the UK is 80 milligrams of alcohol per 100 milliliters of blood, or 35 micrograms of alcohol per 100 milliliters of breath."],
+  "context_set": [""]
+  },
+{"tag": "mobile_phone",
+   "patterns": [" Can I use a mobile phone while driving ?"],
+   "responses": ["No, it is illegal to use a hand-held mobile phone while driving in the UK. You must have a hands-free device if you need to use your phone while driving."],
+  "context_set": [""]
+  },
+{"tag": "penalty_for_speeding",
+   "patterns": ["What is the penalty for speeding ?"],
+   "responses": ["The penalty for speeding in the UK varies depending on the severity of the offense. It can range from a fine and penalty points on your driving license to a driving disqualification, depending on the speed at which you were caught and any previous offenses."],
+  "context_set": [""]
+  },
+{"tag": "belts_mandatory",
+   "patterns": ["Are seat belts mandatory for all passengers ?"],
+   "responses": ["Yes, seat belts are mandatory for all passengers in the UK. It is the responsibility of the driver to ensure that all passengers are wearing seat belts, and failure to comply can result in fines and penalty points on the driver's license."],
+  "context_set": [""]
+  },
+{"tag": "double_yellow_lines",
+   "patterns": ["Can I park on double yellow lines ?"],
+   "responses": ["Generally, parking on double yellow lines is prohibited in the UK unless there are specific exemptions or permissions in place. It is important to check the local parking regulations and signs to determine if any exemptions apply."],
+  "context_set": [""]
+  },
+{"tag": "legal_age_to_drive",
+   "patterns": ["What is the legal age to drive a car ?"],
+   "responses": ["The legal age to drive a car in the UK is 17 years old. However, there are certain conditions and restrictions for drivers who are under 18, such as not being allowed to carry passengers of a certain age for the first few months after passing the driving test."],
+  "context_set": [""]
+  },
+{"tag": "parking_ticket",
+   "patterns": [" Can I appeal against a parking ticket ?"],
+   "responses": ["Yes, you can appeal against a parking ticket (also known as a Penalty Charge Notice) in the UK. The process for appealing may vary depending on the issuing authority, but typically, there is a specified time frame within which you can challenge the ticket and provide evidence to support your case."],
+  "context_set": [""]
+  },
+{"tag": "driving_without_insurance",
+   "patterns": ["What are the consequences of driving without insurance ?"],
+   "responses": ["Driving without insurance in the UK is a serious offense. If caught, you could face a substantial fine, penalty points on your license, and even a driving disqualification. In addition, your vehicle may be seized and impounded."],
+  "context_set": [""]
+  },
+{"tag": "speeding_ticket",
+   "patterns": ["Can I contest a speeding ticket ?"],
+   "responses": ["Yes, you can contest a speeding ticket in the UK if you believe there are valid grounds for doing so. It is advisable to seek legal advice and gather any supporting evidence to present your case effectively."],
+  "context_set": [""]
+  },
+{"tag": "drive_barefoot",
+   "patterns": ["Is it legal to drive barefoot ?"],
+   "responses": ["There is no specific law in the UK that prohibits driving barefoot. However, it is generally recommended to wear suitable footwear while driving to ensure proper control of the vehicle."],
+  "context_set": [""]
+  },
+
+{"tag": "fence_blocks_access_sunlight",
+   "patterns": ["Can my neighbor build a fence that blocks my access to sunlight in my garden?"],
+   "responses": ["there is no general right to sunlight. However, if the fence constitutes a high hedge and obstructs your access to light, you may have a potential claim under the High Hedges Act 2003. Consult a lawyer to assess your specific circumstances and advise you on the available legal remedies."],
+  "context_set": [""]
+  },
+{"tag": "evict_without_valid_reason",
+   "patterns": ["My landlord wants to evict me without a valid reason. Can they do that?"],
+   "responses": ["a landlord must have a valid reason to evict a tenant. The specific grounds for eviction will depend on the type of tenancy agreement in place. If you have an assured shorthold tenancy, your landlord must follow the proper eviction procedures outlined in the Housing Act 1988. It is advisable to seek legal advice to understand your rights and options in this situation."],
+  "context_set": [""]
+  },
+{"tag": "security_deposit",
+   "patterns": ["My landlord has refused to return my security deposit. What can I do?"],
+   "responses": ["If your landlord has wrongfully withheld your security deposit, you may be able to take legal action to recover it. Under the Tenancy Deposit Protection Scheme, your landlord is legally required to protect your deposit in a government-approved scheme. If they fail to do so or fail to return your deposit without valid reasons, you can take them to court. Consult a lawyer who specializes in landlord-tenant law for guidance on the necessary steps to resolve this matter."],
+  "context_set": [""]
+  },
+{"tag": "noisy_activities",
+   "patterns": ["Can I take legal action against my neighbor for nuisance caused by their noisy activities?"],
+   "responses": ["Yes, you can take legal action against your neighbor if their noisy activities constitute a nuisance that substantially interferes with your enjoyment of your property. The law recognizes the right to quiet enjoyment of one's property. You may be able to pursue a claim under the common law of nuisance or the Environmental Protection Act 1990. It is recommended to consult a lawyer to assess the circumstances and discuss the available legal options."],
+  "context_set": [""]
+  },
+{"tag": "maintenance_rented_property",
+   "patterns": ["What are my rights as a tenant regarding repairs and maintenance in my rented property?"],
+   "responses": ["As a tenant, you have the right to live in a property that is safe, well-maintained, and in a good state of repair. Your landlord is responsible for ensuring that the property meets these standards throughout the tenancy. If there are necessary repairs or maintenance issues, you should promptly inform your landlord or letting agency in writing. If they fail to address the problems, you may be able to take legal action or seek assistance from the local authority. Seek advice from a lawyer specializing in landlord-tenant law for further guidance."],
+  "context_set": [""]
+  },
+{"tag": "increase_the_rent_significantly",
+   "patterns": ["My landlord wants to increase the rent significantly. Can they do that?"],
+   "responses": ["In most cases, your landlord can increase the rent, but they must follow specific rules and procedures. The ability to raise the rent depends on the terms outlined in your tenancy agreement and the type of tenancy you have. For assured shorthold tenancies, the landlord can typically increase the rent once the fixed term has ended, but they must provide proper notice and follow statutory guidelines. Consult a lawyer to review your tenancy agreement and advise you on the legality of the proposed rent increase."],
+  "context_set": [""]
+  },
+{"tag": "landlord's_permission",
+   "patterns": ["Can I make changes to the property I'm renting without the landlord's permission ?"],
+   "responses": ["Generally, you should seek your landlord's permission before making any significant changes to the property. Most tenancy agreements require the tenant to obtain written consent for alterations, such as installing new fixtures or making structural modifications. Failure to seek permission may result in breaching the terms of your tenancy agreement and could lead to legal consequences. It's best to communicate with your landlord and obtain their consent in writing to avoid any issues."],
+  "context_set": [""]
+  },
+{"tag": "landlord_sells_the_property",
+   "patterns": ["What happens if my landlord sells the property I'm renting ?"],
+   "responses": [" If your landlord decides to sell the property you are renting, it does not automatically terminate your tenancy. Your rights as a tenant are protected, and the new owner generally becomes your new landlord, assuming the existing tenancy agreement. The terms of your tenancy agreement should remain in effect, including rent amount and duration. However, it's essential to inform the new owner of your tenancy and ensure that your tenancy agreement is transferred correctly. Seeking legal advice can help clarify your rights and obligations in this situation."],
+  "context_set": [""]
+  },
+{"tag": "landlord_enter_landlord_enter",
+   "patterns": ["Can my landlord enter my rented property landlord enter ?"],
+   "responses": ["In most cases, your landlord must provide you with reasonable notice before entering your rented property. The notice period can vary depending on the circumstances, but it typically ranges from 24 to 48 hours. There are exceptions, such as emergencies or situations where immediate access is required. If your landlord consistently enters without proper notice or abuses their right of entry, it may constitute a breach of your privacy rights. Seek legal advice if you believe your landlord is not respecting your right to notice."],
+  "context_set": [""]
+  },
+{"tag": "facing_eviction",
+   "patterns": ["What are my rights if I am facing eviction ?"],
+   "responses": [" If you are facing eviction, it is crucial to understand your rights and seek legal advice immediately. The eviction process varies depending on the type of tenancy and the reason for eviction. In most cases, the landlord must follow specific procedures and obtain a court order to lawfully evict a tenant. Rent arrears, breach of tenancy, or the end of a fixed-term tenancy are common reasons for eviction. Legal assistance is essential to protect your rights and ensure that proper procedures are followed throughout the eviction process."],
+  "context_set": [""]
+  },
+ {"tag": "necessary_repairs",
+   "patterns": ["Can I withhold rent if my landlord fails to carry out necessary repairs?"],
+   "responses": ["It is generally not advisable to withhold rent as a means to address repair issues. Instead, you should follow the proper procedures outlined in the law. If your landlord fails to carry out necessary repairs, you can report the issue to your local authority's environmental health department. They can inspect the property and, if necessary, issue an improvement notice or take legal action against the landlord. Additionally, you may be eligible to apply to the First-tier Tribunal (Property Chamber) for a rent reduction or to request repairs. It is essential to seek legal advice for guidance specific to your situation."],
+   "context": [""]
+  },
+ {"tag": "fixed_term_expires",
+   "patterns": ["Can I end my tenancy early if I want to move out before the fixed term expires?"],
+   "responses": ["Generally, you cannot end your tenancy early unless there is a break clause in your tenancy agreement that allows for early termination. If there is no break clause, you remain liable for the rent until the fixed term ends. However, you may be able to negotiate an early termination agreement with your landlord, or they may agree to find a replacement tenant. It is recommended to review your tenancy agreement and discuss your options with a lawyer to understand the potential consequences and explore possible solutions."],
+   "context": [""]
+  },
+ {"tag": "fixed_term_tenancy",
+   "patterns": ["Can my landlord increase the rent during my fixed-term tenancy?"],
+   "responses": ["During a fixed-term tenancy, your landlord cannot increase the rent unless there is a rent review clause in your tenancy agreement that allows for such adjustments. The rent increase can only occur at the specified review periods outlined in the agreement. Once the fixed term ends and the tenancy becomes periodic, the landlord may have the right to increase the rent by following the proper notice requirements. It is advisable to review your tenancy agreement and seek legal advice to determine your specific rights and obligations."],
+   "context": [""]
+  },
+ {"tag": "disrepair_affects_health",
+   "patterns": ["What are my rights if my rented property is in disrepair and affects my health?"],
+   "responses": ["If your rented property is in disrepair and it affects your health, you have rights under the law. Your landlord is obligated to maintain the property in a safe and habitable condition. If they fail to address the disrepair issues, you can report the problem to your local authority's environmental health department. They have the power to take enforcement action against the landlord and require them to carry out necessary repairs. It is advisable to document the issues and seek legal advice to understand your options and ensure your rights are protected."],
+   "context": [""]
+  },
+ {"tag": "return_deposit",
+   "patterns": ["Can my landlord refuse to return my deposit without providing a valid reason?"],
+   "responses": ["No, your landlord cannot withhold your deposit without a valid reason. In the UK, landlords are legally required to protect your deposit in a government-approved tenancy deposit scheme. At the end of the tenancy, they must return the deposit within a specific timeframe unless there are legitimate deductions to be made. If your landlord withholds the deposit unreasonably, you can dispute the decision through the relevant deposit protection scheme's dispute resolution process. Seeking legal advice can help guide you through the process and protect your rights."],
+   "context": [""]
+  }
+
+
+  ]}
+    
